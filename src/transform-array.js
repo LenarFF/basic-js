@@ -2,7 +2,7 @@
 module.exports = function transform(arr) {
   // throw new CustomError('Not implemented');
   // remove line with error and write your code here
-  if (!Array.isArray(arr)) throw new Error('ERROR');;
+  if (!Array.isArray(arr)) throw new Error('ERROR');
   const newArr = [];
   const contrArray = ['--discard-next', '--discard-prev', '--double-next', '--double-prev']
 for (let i = 0; i < arr.length; i++) {
